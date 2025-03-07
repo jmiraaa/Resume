@@ -1,0 +1,132 @@
+ body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef;
+    color: #333;
+}
+
+h1, h2 {
+    color: #2a2a2a;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 20px;
+    color: #0056b3;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 2px solid #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+ul li {
+    margin: 8px 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul li a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.section-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+}
+
+
+.contact-section {
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 40px;
+    border: 2px solid #ddd;
+}
+
+.contact-details {
+    font-size: 18px;
+    text-align: center;
+}
+
+.contact-details p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.contact-details a {
+    font-weight: bold;
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
